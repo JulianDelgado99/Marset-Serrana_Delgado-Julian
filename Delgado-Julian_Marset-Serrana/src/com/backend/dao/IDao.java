@@ -8,9 +8,7 @@ public interface IDao<T> {
 
     List<T> listarTodos();
 
-    void eliminar(int id);
 
-    T buscarPorId(int id);
 
 
 }

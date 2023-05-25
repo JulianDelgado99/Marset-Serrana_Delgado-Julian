@@ -6,6 +6,7 @@ import com.backend.entity.Odontologo;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class OdontologoDaoH2 implements IDao<Odontologo> {
@@ -62,6 +63,33 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     @Override
     public List<Odontologo> listarTodos() {
-        return null;
+        Connection connection = null;
+        List<Odontologo> odontologos = new ArrayList<>();
+
+        try {
+            connection = H2Connection.getConnection();
+            PreparedStatement ps = connection.prepareStatement("SELECT * FROM ODONTOLOGOS");
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Odontologo odontologo = new Odontologo(rs.getInt(1), rs.getString(2), rs.getString(3));
+                odontologos.add(odontologo);
+            }
+
+            LOGGER.info("Listado de todos los odontologos: " + odontologos);
+
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception ex) {
+                LOGGER.error("Ha ocurrido un error al intentar cerrar la bdd. " + ex.getMessage());
+                ex.printStackTrace();
+            }
+        }
+        return odontologos;
     }
-}
+    }
+

@@ -11,6 +11,7 @@ public class OdontologoDaoMemoria implements IDao<Odontologo> {
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoMemoria.class);
 
     private List<Odontologo> odontologoRepository;
+
     @Override
     public Odontologo guardar(Odontologo odontologo) {
         odontologoRepository.add(odontologo);

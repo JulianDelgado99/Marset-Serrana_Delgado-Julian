@@ -1,12 +1,22 @@
 package com.backend.entity;
 
 public class Odontologo {
-        private int numeroMatricula;
-        private String nombre;
-        private String apellido;
+
+
+    private int id;
+    private int numeroMatricula;
+    private String nombre;
+    private String apellido;
 
 
     public Odontologo(int numeroMatricula, String nombre, String apellido) {
+        this.numeroMatricula = numeroMatricula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    public Odontologo(int id, int numeroMatricula, String nombre, String apellido) {
+        this.id = id;
         this.numeroMatricula = numeroMatricula;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -36,6 +46,13 @@ public class Odontologo {
         this.apellido = apellido;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String toString() {
         return "Odontólogo [Número de matrícula: " + numeroMatricula + ", Nombre: " + nombre + ", Apellido: " + apellido + "]";

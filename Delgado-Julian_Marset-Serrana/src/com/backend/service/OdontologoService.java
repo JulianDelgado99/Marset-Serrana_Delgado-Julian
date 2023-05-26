@@ -2,7 +2,6 @@ package com.backend.service;
 
 
 import com.backend.dao.IDao;
-import com.backend.dao.impl.OdontologoDaoH2;
 import com.backend.entity.Odontologo;
 
 import java.util.List;
@@ -16,16 +15,13 @@ public class OdontologoService {
         this.odontologoIDao = odontologoIDao;
     }
 
-    public Odontologo guardarOdontologo(Odontologo odontologo){
+    public Odontologo guardarOdontologo(Odontologo odontologo) {
         return odontologoIDao.guardar(odontologo);
     }
 
-    public List<Odontologo> listarOdontologos(){
+    public List<Odontologo> listarOdontologos() {
         return odontologoIDao.listarTodos();
     }
-
-
-
 
 
 }

@@ -9,6 +9,4 @@ public interface IDao<T> {
     List<T> listarTodos();
 
 
-
-
 }

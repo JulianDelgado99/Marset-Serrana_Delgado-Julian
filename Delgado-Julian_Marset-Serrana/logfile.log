@@ -10,3 +10,59 @@ SELECT * FROM ODONTOLOGOS [42104-214]
 SELECT * FROM ODONTOLOGOS [42104-214]
 [2023-05-25 21:00:42] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
 SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 21:28:33] [ ERROR] [OdontologoDaoH2:82] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/DB_parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/DB_parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 21:28:33] [ ERROR] [OdontologoDaoH2:89] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 21:29:31] [ ERROR] [OdontologoDaoH2:82] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/DB_parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/DB_parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 21:29:31] [ ERROR] [OdontologoDaoH2:89] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 23:11:57] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 23:17:18] [ ERROR] [OdontologoDaoH2:82] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/DB_parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/DB_parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 23:17:18] [ ERROR] [OdontologoDaoH2:89] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 23:17:47] [ ERROR] [OdontologoDaoH2:82] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/DB_parcial.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/DB_parcial.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 23:17:47] [ ERROR] [OdontologoDaoH2:89] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 23:18:50] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 23:34:44] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1, Nombre: 1234, Apellido: Julian], Odontólogo [Número de matrícula: 2, Nombre: 4567, Apellido: Serrana]]
+[2023-05-25 23:41:03] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-25 23:45:26] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-25 23:46:37] [ INFO ] [OdontologoDaoH2:79] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-25 23:51:02] [ INFO ] [OdontologoDaoH2:37] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: David, Apellido: Montenegro]
+[2023-05-25 23:56:49] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset], Odontólogo [Número de matrícula: 1212, Nombre: David, Apellido: Montenegro]]
+[2023-05-25 23:59:13] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-25 23:59:30] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:00:12] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:00:40] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:04:15] [ ERROR] [OdontologoDaoH2:81] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:04:15] [ ERROR] [OdontologoDaoH2:88] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:04:15] [ ERROR] [OdontologoDaoH2:39] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:04:15] [ ERROR] [OdontologoDaoH2:55] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:04:35] [ ERROR] [OdontologoDaoH2:81] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:04:35] [ ERROR] [OdontologoDaoH2:88] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:04:36] [ ERROR] [OdontologoDaoH2:39] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:04:36] [ ERROR] [OdontologoDaoH2:55] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:04:53] [ ERROR] [OdontologoDaoH2:81] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:04:53] [ ERROR] [OdontologoDaoH2:88] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:06:23] [ ERROR] [OdontologoDaoH2:81] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:06:23] [ ERROR] [OdontologoDaoH2:88] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:06:23] [ ERROR] [OdontologoDaoH2:39] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:06:23] [ ERROR] [OdontologoDaoH2:55] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:11:05] [ ERROR] [OdontologoDaoH2:81] La base de datos puede que ya esté siendo utilizada: "C:/Users/Usuario/delgado_marset.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 00:11:05] [ ERROR] [OdontologoDaoH2:88] Ha ocurrido un error al intentar cerrar la bdd. Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 00:11:45] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset], Odontólogo [Número de matrícula: 1212, Nombre: David, Apellido: Montenegro], Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset], Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset], Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset], Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]]
+[2023-05-26 00:12:56] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:13:42] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:13:54] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:14:30] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:14:30] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]

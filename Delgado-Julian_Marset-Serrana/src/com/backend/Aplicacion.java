@@ -9,7 +9,7 @@ public class Aplicacion {
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection("jdbc:h2:~/DB_parcial;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
+            connection = DriverManager.getConnection("jdbc:h2:~/delgado_marset;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

@@ -14,7 +14,6 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final Logger LOGGER = Logger.getLogger(OdontologoDaoH2.class);
 
 
-
     @Override
     public Odontologo guardar(Odontologo odontologo) {
         Connection connection = null;
@@ -22,15 +21,15 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             connection = H2Connection.getConnection();
             connection.setAutoCommit(false);
 
-            PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?)");
+            PreparedStatement ps = connection.prepareStatement("INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?)", Statement.RETURN_GENERATED_KEYS);
             ps.setInt(1, odontologo.getNumeroMatricula());
             ps.setString(2, odontologo.getNombre());
             ps.setString(3, odontologo.getApellido());
             ps.execute();
 
-            ResultSet rs = ps.executeQuery();
+            ResultSet rs = ps.getGeneratedKeys();
             while (rs.next()) {
-                odontologo.setNumeroMatricula(rs.getInt(1));
+                odontologo.setId(rs.getInt(1));
             }
 
             connection.commit();
@@ -72,7 +71,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
             PreparedStatement ps = connection.prepareStatement("SELECT * FROM ODONTOLOGOS");
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                Odontologo odontologo = new Odontologo(rs.getInt(1), rs.getString(2), rs.getString(3));
+                Odontologo odontologo = new Odontologo(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4));
                 odontologos.add(odontologo);
             }
 
@@ -92,5 +91,5 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         }
         return odontologos;
     }
-    }
+}
 

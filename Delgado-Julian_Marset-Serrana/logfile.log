@@ -66,3 +66,8 @@ Database may be already in use: "C:/Users/Usuario/delgado_marset.mv.db". Possibl
 [2023-05-26 00:13:54] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
 [2023-05-26 00:14:30] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
 [2023-05-26 00:14:30] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]
+[2023-05-26 00:19:26] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:28:03] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:29:19] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:30:39] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [Odontólogo [Número de matrícula: 1234, Nombre: Julian, Apellido: Delgado], Odontólogo [Número de matrícula: 4567, Nombre: Serrana, Apellido: Marset]]
+[2023-05-26 00:30:39] [ INFO ] [OdontologoDaoH2:36] Se ha registrado el odontólogo: Odontólogo [Número de matrícula: 1212, Nombre: Valentina, Apellido: Marset]

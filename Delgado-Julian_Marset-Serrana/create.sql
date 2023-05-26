@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS NOMBRE_TABLA;
-CREATE TABLE ODONTOLOGOS (ID INT MATRICULA PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO INT NOT NULL);
+CREATE TABLE Odontologos(INT numeroMatricula, nombre VARCHAR(100) NOT NULL, apellido INT NOT NULL);
 
 
 -- para test --
-INSERT INTO  ODONTOLOGOS(MATRICULA, NOMBRE, APELLIDO) VALUES ('1234', 'Julian', 'Delgado'), ('4567', 'Serrana', 'Marset');
+INSERT INTO  Odontologos(numeroMatricula, nombre, apellido) VALUES ('1234', 'Julian', 'Delgado'), ('4567', 'Serrana', 'Marset');

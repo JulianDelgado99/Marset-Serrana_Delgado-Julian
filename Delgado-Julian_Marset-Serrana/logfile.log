@@ -1,0 +1,12 @@
+[2023-05-25 20:38:56] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 20:39:35] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 20:40:29] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 20:52:25] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 20:56:29] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-25 21:00:42] [ ERROR] [OdontologoDaoH2:82] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
